@@ -35,6 +35,7 @@ app.post("/", function(req, res){
     res.redirect("/work");
   }else{
     listItems.push(req.body.newTodo);
+    console.log(listItems);
     res.redirect("/");
   }
 });
