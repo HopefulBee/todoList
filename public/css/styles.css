@@ -89,15 +89,14 @@ html {
     opacity: 1;
   }
   
-  footer {
-      color: white;
-      color: rgba(0, 0, 0, 0.5);
-      text-align: center;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      height: 100px;
-      width: 100%;
-      overflow: hidden;
-  }
-  
+ footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
