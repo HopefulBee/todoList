@@ -90,8 +90,14 @@ html {
   }
   
   footer {
-    color: white;
-    color: rgba(0, 0, 0, 0.5);
-    text-align: center;
+      color: white;
+      color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 100px;
+      width: 100%;
+      overflow: hidden;
   }
   
